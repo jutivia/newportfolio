@@ -98,7 +98,7 @@ p {
 }
 @media screen and (min-width: 800px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
   h2 {
     font-size: 2.5rem;
@@ -166,6 +166,12 @@ Stripe Styles
   background: var(--clr-black);
   cursor: pointer;
   transition: var(--transition);
+}
+.btn-div{
+  display:flex;
+  justify-content:space-around;
+  width:300px;
+  margin-left:-15px;
 }
 .btn:hover {
   background: var(--clr-grey-5);
@@ -287,7 +293,7 @@ Stripe Styles
   }
   .hero-info h1 {
     max-width: 100%;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
   .hero-images {
     align-self: end;
@@ -297,6 +303,10 @@ Stripe Styles
   }
 }
 @media screen and (min-width: 1400px) {
+  .hero-info h1 {
+    max-width: 100%;
+    font-size: 5.5rem;
+  }
   .hero-center {
     padding-bottom: 20vh;
   }
@@ -398,9 +408,10 @@ Stripe Styles
   left: 50%;
   transform: translateX(-50%);
 }
-
+@media screen and (min-width: 800px){
 .submenu.show {
   display: block;
+}
 }
 
 .submenu-center {
